@@ -1,0 +1,88 @@
+/* all images in the page */
+img{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  width: 15%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* list style */
+ul {
+  list-style-type: circle;
+}
+
+body{
+background-color: #F0FFFF;
+font-family: Cursive;
+
+}
+
+h1{
+background-color:#5F9EA0;
+width:40%;
+text-align: center;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2{
+text-align: center;
+color:#2F4F4F;
+}
+
+h3{
+text-align: center;
+color:#2F4F4F;
+}
+
+p{
+  text-align: center;
+  font-family: Tahoma;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
